@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro';
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #263343;
+    padding: 8px 12px;
+}
+
+.navbar_logo {
+    font-size: 24px;
+    color: white
+}
+.navbar_toggoleBtn{
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 25px;
+    color: #d49466;
+}
+.navbar_logo i {
+    color: #d49466;
+}
+
+.navbar_menu {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+.navbar_menu li {
+    padding: 8px 12px;
+}
+
+.navbar_menu  :hover {
+    background-color: #d49466;
+    border-radius: 4px;
+}
+
+.navbar_links {
+    list-style: none;
+    color: white;
+    display: flex;
+}
+
+.navbar_links li {
+    padding: 8px 12px;
+}
+@media screen and (max-width: 760px){
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+    .navbar_menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+  .navbar_menu li {
+
+      width: 100%;
+      text-align: center;
+  }
+
+  .navbar_links {
+      display: none;
+      justify-content: center;
+      width: 100%;
+  }
+  .navbar_toggoleBtn
+  {
+      display: block;
+  }
+
+}
