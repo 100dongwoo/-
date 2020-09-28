@@ -54,6 +54,7 @@ header .logo i {
 
 header .icons .fa-search {
     margin-right: var(--padding);
+
 }
 
 .player {
@@ -118,6 +119,7 @@ body > .info {
     flex-direction: column;
     font-size: var(--font-small);
     color: var(--grey-dark--color);
+    background:transparent;
 }
 
 .info .actions button i {
@@ -166,7 +168,7 @@ body > .info {
 .channel .subscribe {
     text-transform: uppercase;
     color: var(--red--color);
-    /*// background-color: transparent;*/
+     background-color: transparent;
     font-size: var(--font-medium);
 }
 
