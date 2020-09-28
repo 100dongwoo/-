@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/100dongwoo/Responsive-web-basic/static/css/main.97a16f1d.chunk.css",
-    "main.js": "/100dongwoo/Responsive-web-basic/static/js/main.70857458.chunk.js",
-    "main.js.map": "/100dongwoo/Responsive-web-basic/static/js/main.70857458.chunk.js.map",
-    "runtime-main.js": "/100dongwoo/Responsive-web-basic/static/js/runtime-main.d9050c0f.js",
-    "runtime-main.js.map": "/100dongwoo/Responsive-web-basic/static/js/runtime-main.d9050c0f.js.map",
-    "static/js/2.6f419db8.chunk.js": "/100dongwoo/Responsive-web-basic/static/js/2.6f419db8.chunk.js",
-    "static/js/2.6f419db8.chunk.js.map": "/100dongwoo/Responsive-web-basic/static/js/2.6f419db8.chunk.js.map",
-    "index.html": "/100dongwoo/Responsive-web-basic/index.html",
-    "precache-manifest.2affd0e7093c13c9a38264b16f965a46.js": "/100dongwoo/Responsive-web-basic/precache-manifest.2affd0e7093c13c9a38264b16f965a46.js",
-    "service-worker.js": "/100dongwoo/Responsive-web-basic/service-worker.js",
-    "static/css/main.97a16f1d.chunk.css.map": "/100dongwoo/Responsive-web-basic/static/css/main.97a16f1d.chunk.css.map",
-    "static/js/2.6f419db8.chunk.js.LICENSE.txt": "/100dongwoo/Responsive-web-basic/static/js/2.6f419db8.chunk.js.LICENSE.txt"
+    "main.css": "/Responsive-web-basic/static/css/main.97a16f1d.chunk.css",
+    "main.js": "/Responsive-web-basic/static/js/main.70857458.chunk.js",
+    "main.js.map": "/Responsive-web-basic/static/js/main.70857458.chunk.js.map",
+    "runtime-main.js": "/Responsive-web-basic/static/js/runtime-main.d3db065d.js",
+    "runtime-main.js.map": "/Responsive-web-basic/static/js/runtime-main.d3db065d.js.map",
+    "static/js/2.6f419db8.chunk.js": "/Responsive-web-basic/static/js/2.6f419db8.chunk.js",
+    "static/js/2.6f419db8.chunk.js.map": "/Responsive-web-basic/static/js/2.6f419db8.chunk.js.map",
+    "index.html": "/Responsive-web-basic/index.html",
+    "precache-manifest.b0817f658e68416f5b864db5475dd400.js": "/Responsive-web-basic/precache-manifest.b0817f658e68416f5b864db5475dd400.js",
+    "service-worker.js": "/Responsive-web-basic/service-worker.js",
+    "static/css/main.97a16f1d.chunk.css.map": "/Responsive-web-basic/static/css/main.97a16f1d.chunk.css.map",
+    "static/js/2.6f419db8.chunk.js.LICENSE.txt": "/Responsive-web-basic/static/js/2.6f419db8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d9050c0f.js",
+    "static/js/runtime-main.d3db065d.js",
     "static/js/2.6f419db8.chunk.js",
     "static/css/main.97a16f1d.chunk.css",
     "static/js/main.70857458.chunk.js"
