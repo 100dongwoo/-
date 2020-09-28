@@ -26,122 +26,139 @@ function App() {
                 />
             </section>
             {/*Video info */}
-            <section className="info">
-                {/*Meta Data*/}
-                <div className="metadata">
-                    <ui className="hashtags">
-                        <li>dream</li>
-                        <li>dream</li>
-                        <li>dream</li>
-                    </ui>
-                    <div className="titleAndButton">
-                        <span className="title">
-                            나 다시 또 설레어 이렇게 너를 만나서 함께 하고 있는
-                            지금 이 공기가 다시는 널 볼 순 없을 거라고 추억일
-                        </span>
-                        <button className="moreBtn">
-                            <i className="fas fa-caret-down"></i>
-                        </button>
-                    </div>
-                    <div className="views">
+            <div className="infoAndUpNext">
+                <section className="info">
+                    {/*Meta Data*/}
+                    <div className="metadata">
+                        <ui className="hashtags">
+                            <li>dream</li>
+                            <li>dream</li>
+                            <li>dream</li>
+                        </ui>
+                        <div className="titleAndButton">
+                            <span className="title">
+                                나 다시 또 설레어 이렇게 너를 만나서 함께 하고
+                                있는 지금 이 공기가 다시는 널 볼 순 없을 거라고
+                                추억일 나 다시 또 설레어 이렇게 너를 만나서 함께
+                                하고 있는 지금 이 공기가 다시는 널 볼 순 없을
+                                거라고 추억일 나 다시 또 설레어 이렇게 너를
+                                만나서 함께 하고 있는 지금 이 공기가 다시는 널
+                                볼 순 없을 거라고 추억일 나 다시 또 설레어
+                                이렇게 너를 만나서 함께 하고 있는 지금 이 공기가
+                                다시는 널 볼 순 없을 거라고 추억일
+                            </span>
+                            <button className="moreBtn" onClick={{}}>
+                                <i className="fas fa-caret-down"></i>
+                            </button>
+                        </div>
                         <span className="views">1M view</span>
                     </div>
-                </div>
 
-                {/*Action*/}
-                <ui className="actions">
-                    <li>
-                        <button>
-                            <i className="fas fa-thumbs-up"></i>
-                            <span>1K</span>
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <i className="fas fa-thumbs-down"></i>
-                            <span>0</span>
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <i className="fas fa-share"></i>
-                            <span>Share</span>
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <i className="fas fa-plus"></i>
-                            <span>Save</span>
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <i className="fab fa-font-awesome-flag"></i>
-                            <span>Report</span>
-                        </button>
-                    </li>
-                </ui>
+                    {/*Action*/}
+                    <ui className="actions">
+                        <li>
+                            <button>
+                                <i className="fas fa-thumbs-up"></i>
+                                <span>1K</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i className="fas fa-thumbs-down"></i>
+                                <span>0</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i className="fas fa-share"></i>
+                                <span>Share</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i className="fas fa-plus"></i>
+                                <span>Save</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i className="fab fa-font-awesome-flag"></i>
+                                <span>Report</span>
+                            </button>
+                        </li>
+                    </ui>
 
-                {/*채널정보*/}
-                <div className="channel">
-                    <div className="metadata"></div>
-                    <div className="subscribe">
-                        <img
-                            src="https://pds.joins.com/news/component/htmlphoto_mmdata/201901/04/ad58532f-6b1f-4b0f-a248-c91ad93b7ca5.jpg"
-                            alt=""
-                        />
-                        <div className="info">
-                            <span className="name">동의대학교</span>
-                            <span className="subscribers">1M SUBSCRIBER</span>
+                    {/*채널정보*/}
+                    <div className="channel">
+                        <div className="metadata">
+                            <img
+                                src="https://pds.joins.com/news/component/htmlphoto_mmdata/201901/04/ad58532f-6b1f-4b0f-a248-c91ad93b7ca5.jpg"
+                                alt=""
+                            />
+                            <div className="info">
+                                <span className="name">동의대학교</span>
+                                <span className="subscribers">
+                                    1M SUBSCRIBER
+                                </span>
+                            </div>
                         </div>
+                        <button className="subscribe">subscribe</button>
                     </div>
-                    <button className="subscribe">subscribe</button>
-                </div>
-            </section>
-            <section className="UpNext">
-                <span className="title">Up Next</span>
-                <ul>
-                    <li className="item">
-                        <img src={array[0]} alt="" />
-                        <div className="info">
-                            <span className="title">
-                                안녕하세요 웹반응형 입문을하는중입니다
-                            </span>
-                            <span className="name">Mokey_D.우</span>
-                            <span className="views">11M views</span>
+                </section>
+
+                <section className="upNext">
+                    <span className="title">Up Next</span>
+                    <ul>
+                        <li className="item">
+                            <div className="img">
+                                <img src={array[0]} alt="" />
+                            </div>
+                            <div className="itemInfo">
+                                <span className="title">
+                                    안녕하세요 웹반응형 입문을하는중입니다
+                                </span>
+                                <span className="name">Mokey_D.우</span>
+                                <span className="views">11M views</span>
+                            </div>
                             <button className="moreBtn">
-                                <i className=" fas fa-ellipsis-v"></i>
+                                <i className="fas fa-ellipsis-v"></i>
                             </button>
-                        </div>
-                    </li>
-                    <li className="item">
-                        <img src={array[1]} alt="" />
-                        <div className="info">
-                            <span className="title">
-                                CHEERS 입문을하는중입니다
-                            </span>
-                            <span className="name">Mokey_D.우</span>
-                            <span className="views">11M views</span>
+                        </li>
+
+                        <li className="item">
+                            <div className="img">
+                                <img src={array[1]} alt="" />
+                            </div>
+                            <div className="itemInfo">
+                                <span className="title">
+                                    안녕하세요 웹반응형 입문을하는중입니다
+                                </span>
+                                <span className="name">Mokey_D.우</span>
+                                <span className="views">11M views</span>
+                            </div>
                             <button className="moreBtn">
-                                <i className=" fas fa-ellipsis-v"></i>
+                                <i className="fas fa-ellipsis-v"></i>
                             </button>
-                        </div>
-                    </li>
-                    <li className="item">
-                        <img src={array[2]} alt="" />
-                        <div className="info">
-                            <span className="title">
-                                안녕하세요 웹반응형 그렇답니다
-                            </span>
-                            <span className="name">Mokey_D.우</span>
-                            <span className="views">11M views</span>
+                        </li>
+
+                        <li className="item">
+                            <div className="img">
+                                <img src={array[2]} alt="" />
+                            </div>
+                            <div className="itemInfo">
+                                <span className="title">
+                                    안녕하세요 웹반응형 입문을하는중입니다
+                                </span>
+                                <span className="name">Mokey_D.우</span>
+                                <span className="views">11M views</span>
+                            </div>
                             <button className="moreBtn">
-                                <i className=" fas fa-ellipsis-v"></i>
+                                <i className="fas fa-ellipsis-v"></i>
                             </button>
-                        </div>
-                    </li>
-                </ul>
-            </section>
+                        </li>
+                    </ul>
+                </section>
+            </div>
         </div>
     );
 }

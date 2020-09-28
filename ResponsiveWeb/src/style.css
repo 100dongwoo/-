@@ -29,11 +29,13 @@ body {
 ui {
     list-style: none;
 }
-button,button:focus{
+
+button, button:focus {
     border: none;
     cursor: pointer;
     outline: none;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -68,7 +70,7 @@ header .icons .fa-search {
 }
 
 /*비디오 인포*/
-.info {
+body > .info {
     padding: var(--padding);
 }
 
@@ -82,10 +84,148 @@ header .icons .fa-search {
     margin-right: var(--padding);
 }
 
-.info .metadata .titleAndButton{
+.info .metadata .titleAndButton {
     display: flex;
 
 }
-.info .metadata .titleAndButton.title{
+
+.info .metadata .titleAndButton .title {
     font-size: var(--font-medium);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-right: var(--padding);
+}
+
+.info .metadata .titleAndButton .moreBtn {
+    height: 100%;
+}
+
+.info .views {
+    font-size: var(--font-small);
+    color: var(--grey-dark--color);
+}
+
+.info .actions {
+    display: flex;
+    justify-content: space-around;
+    margin: var(--padding) 0;
+}
+
+.info .actions button {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-small);
+    color: var(--grey-dark--color);
+}
+
+.info .actions button i {
+    margin: 0 auto;
+    margin-bottom: calc(var(--padding) / 2);
+    font-size: 16px;
+}
+
+.info .actions button i.active {
+    color: var(--blue--color);
+}
+
+.channel {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--grey-light-color);
+    border-bottom: 1px solid var(--grey-light-color);
+}
+
+.channel .metadata {
+    display: flex;
+    align-items: center;
+}
+
+.channel .metadata .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.channel .metadata img {
+    width: var(--avtar-size);
+    height: var(--avtar-size);
+    border-radius: 50%;
+}
+
+.channel .metadata .info .name {
+    font-size: var(--font-medium);
+
+}
+
+.channel .metadata .info .subscribers {
+    font-size: var(--font-small);
+    color: var(--grey-dark--color);
+}
+
+.channel .subscribe {
+    text-transform: uppercase;
+    color: var(--red--color);
+    /*// background-color: transparent;*/
+    font-size: var(--font-medium);
+}
+
+/*up next*/
+.upNext {
+    padding: 0 var(--padding);
+}
+
+.upNext > .title {
+    font-size: var(--font-medium);
+    color: var(--grey-dark--color);
+    margin-bottom: calc(var(--padding) / 2);
+}
+
+.upNext .item {
+    display: flex;
+    margin-top: var(--padding);
+}
+
+.upNext .item .img {
+    flex: 1 1 35%;
+    margin-right: var(--padding);
+
+}
+
+.upNext .item .img img {
+    width: 100%;
+
+}
+
+
+.upNext .item .moreBtn {
+    flex-basis: 5%;
+    height: 100%;
+    background: transparent;
+}
+.upNext .item .itemInfo {
+    flex: 1 1 60%;
+    display: flex;
+    flex-direction: column;
+}
+.upNext .item .itemInfo .title {
+    font-size: var(--font-small);
+}
+
+.upNext .item .itemInfo .name,
+.upNext .item .itemInfo .views {
+    font-size: var(--font-micro);
+    color: var(--grey-dark--color);
+}
+
+.infoAndUpNext{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+    .infoAndUpNext{
+        flex-direction: row;
+        margin: var(--padding) 0;
+    }
+
 }
