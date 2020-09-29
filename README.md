@@ -21,8 +21,15 @@
 ##### Demo
 https://100dongwoo.github.io/Responsive-web-basic/
 
-<br>
-<br>
-### 편리한 사이트 
+<br><br>
+
+##### 편리한 사이트 
 - css, html : https://developer.mozilla.org/ko/docs/Web/CSS/-webkit-line-clamp
 
+## 깃헙 deploy하는법
+1. npm i gh-pages
+2.  "homepage": "http://100dongwoo.github.io/movie_react" <br>
+3. npm run build <br>
+4. 2번이랑 거의 동시에  "deploy": "gh-pages -d build" 수정 json파일(스크립트 안에) <br>
+5. npm run deploy <br>
+6. Published 뜨게되면  <br>
