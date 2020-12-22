@@ -45,4 +45,4 @@ https://100dongwoo.github.io/Responsive-web-basic/
 "predeploy":"npm run build",
 "deploy": "gh-pages -d build"
 
-4. "deploy": "gh-pages -d build
+4 yarn run deploy
