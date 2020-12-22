@@ -33,3 +33,16 @@ https://100dongwoo.github.io/Responsive-web-basic/
 4. 2번이랑 거의 동시에  "deploy": "gh-pages -d build" 수정 json파일(스크립트 안에) <br>
 5. npm run deploy <br>
 6. Published 뜨게되면  <br>
+
+
+## 깃헙 deploy 되는거
+"homepage": "http://100dongwoo.github.io/100dongwoo"
+1. yarn build
+
+2. yarn add --dev gh-pages
+
+3.
+"predeploy":"npm run build",
+"deploy": "gh-pages -d build"
+
+4. 
